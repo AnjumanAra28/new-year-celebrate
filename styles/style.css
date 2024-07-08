@@ -13,6 +13,9 @@ body{
 .text-center{
     text-align: center;
 }
+section{
+    margin-bottom: 50px;
+}
 
 /* header style starts here */
 .banner-container{
@@ -35,7 +38,29 @@ body{
 .banner-content h1{
     font-size: 72px;
 }
+/* header style rends here */
 
-
-/* header style ends here */
+/* 65% style starts here */
+.offer-section{
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.offer-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    color:red;
+}
+.offer-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: red;
+}
+.offer-image img {
+    width: 70%;
+    height: 300px;
+    margin-left: 90px;
+}
+/* 65% style ends here */
 
