@@ -13,6 +13,9 @@ body{
 .text-center{
     text-align: center;
 }
+.red-text{
+    color: red;
+}
 /* section{
     margin-bottom: 50px;
 } */
@@ -116,6 +119,42 @@ body{
     border: none;
     background-color: red;
     border-radius: 5px;
+    cursor: pointer;
    
 }
 /* party time table ends  */
+
+/* coming soon starts */
+.coming-soon-container{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+   
+}
+.coming-soon-content{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.coming-soon-content >div{
+    width: 30%;
+}
+.middle-part img{
+   width: 70%;
+   border: 10px solid red;
+   border-radius: 50%;
+   padding: 20px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.right-side img{
+   width: 30%;
+}
+.left-side h2,p ,.right-side h1, p{
+    margin-bottom: 10px;
+}
+/* coming soon ends */
