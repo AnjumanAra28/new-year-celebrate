@@ -269,3 +269,36 @@ body p{
     color: white;
 }
 /* newsletter ends */
+
+/* footer starts here */
+footer{
+    background-color: black;
+    height: 500px;
+    margin-top: 70px;
+}
+footer p{
+    color: white;
+    /* margin-top: 60px; */
+}
+.footer-content{
+    padding-top: 50px;
+}
+.address-section , .copyright-section{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icons img{
+     width: 3%;
+     margin-right: 10px;
+}
+.hr{
+   margin: 0 auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   width: 70%;
+}
+/* footer ends here */
