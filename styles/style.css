@@ -228,3 +228,44 @@ body p{
     margin-top: 20px;
 }
 /* portfolio section ends */
+
+/* newsletter starts  */
+.newsletter-container{
+    width: 1320px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.newsletter-container h1{
+      font-size: 25px;
+      font-weight: 800;
+      margin-bottom: 7px;
+
+}
+.subscribe-section{
+    margin-top: 7px;
+}
+.input-field{
+    padding: 11px;
+    margin-right: 0px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    background-color: white;
+}
+.btn{
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 10px;
+    border: none;
+    margin-left: 0;
+    color: white;
+}
+/* newsletter ends */
